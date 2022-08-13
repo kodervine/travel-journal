@@ -1,7 +1,9 @@
 import React from "react"
-import Header from "/components/Header"
-import Main from "/components/Main"
-import data from "/data"
+import Header from "./components/Header"
+import Main from "./components/Main"
+import data from "./data"
+import "./style.css"
+
 
 const travelData = data.map((item) => {
     return <Main 
