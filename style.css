@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0
+}
+
+body {
+    
+}
+
+.header {
+    background-color: #F55A5A;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-gap: 8px;
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
+.travel-container {
+    display: flex;
+    grid-gap: 30px;
+}
+
+.travel-container h2 {
+    padding: 5px 0 10px 0;
+}
+
+.travel-container .date {
+    font-weight: bold;
+    font-size: 11px;
+    padding-bottom: 8px;
+}
+
+.travel-container .description {
+    font-size: 10.5px;
+    color: #2B283A;
+    padding-bottom: 10px;
+    line-height: 1.5;
+}
+
+.location-container {
+    display: flex;
+    font-size: 10.5px;
+}
+
+.location-container p {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding-left: 4px;
+}
+
+.location-container a {
+    color: #918E9B;
+    text-transform: lowercase;
+    padding-left: 10px;
+    font-size: 11px;
+    letter-spacing: 0;
+}
