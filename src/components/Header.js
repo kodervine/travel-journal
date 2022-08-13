@@ -1,9 +1,10 @@
 import React from "react"
+import world from "/Images/world.svg"
 
 export default function Header(){
     return(
         <div className="header">
-            <img src="/Images/world.svg" alt="world" />
+            <img src={world} alt="world" />
             <p>mytraveljournal</p>
         </div>
     )

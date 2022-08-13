@@ -1,4 +1,5 @@
 import React from "react"
+import mapIcon from "/Images/map-icon.svg"
 
 export default function Main(props){
     return(
@@ -8,7 +9,7 @@ export default function Main(props){
             </div> 
             <div>
                 <div className="location-container">
-                    <img src= "Images/map-icon.svg" alt="map" />
+                    <img src={mapIcon} alt="map" />
                     <p>{props.location}</p>
                     <p><a href="">View on Google maps</a></p>
                 </div>
