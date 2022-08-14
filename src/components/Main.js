@@ -9,7 +9,7 @@ export default function Main(props){
             </div> 
             <div>
                 <div className="location-container">
-                    {/* <img src={mapIcon} alt="map" /> */}
+                    {/* <img src={mapIcon} alt="images"/> */}
                     <p>{props.location}</p>
                     <p><a href="">View on Google maps</a></p>
                 </div>
