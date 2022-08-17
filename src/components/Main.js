@@ -1,5 +1,5 @@
 import React from "react"
-// import mapIcon from "./Images/map-icon.svg"
+import mapIcon from "./Images/map-icon.svg"
 
 export default function Main(props){
     return(
@@ -9,9 +9,9 @@ export default function Main(props){
             </div> 
             <div>
                 <div className="location-container">
-                    {/* <img src={mapIcon} alt="images"/> */}
+                    <img src={mapIcon} alt="images"/>
                     <p>{props.location}</p>
-                    <p><a href="">View on Google maps</a></p>
+                    <p><a href={props.googleMapsUrl}>View on Google maps</a></p>
                 </div>
                 <h2>{props.title}</h2>
                 <p className="date">{props.startDate} - {props.endDate}</p>

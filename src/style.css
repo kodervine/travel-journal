@@ -57,6 +57,11 @@ body {
     font-size: 10.5px;
 }
 
+.location-container img {
+    width: 15px;
+    height: 15px;
+}
+
 .location-container p {
     text-transform: uppercase;
     letter-spacing: 1px;
